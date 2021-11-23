@@ -1,4 +1,4 @@
-age = input("What is your current age?")
+age = input("What is your current age? ")
 
 TOTAL_YEARS = 90
 
