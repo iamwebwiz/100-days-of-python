@@ -1,4 +1,4 @@
-print("Welcome to the tip calculator.")
+print("Welcome to the tip calculator!")
 print("------------------------------")
 bill = input("What was the total bill? $")
 tip_percentage = input("What percentage tip would you like to give? 10, 12 or 15? ")
