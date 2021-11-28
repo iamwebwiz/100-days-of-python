@@ -1,14 +1,14 @@
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 
-body_mass_index = weight / (height ** 2)
+body_mass_index = round(weight / (height ** 2))
 
 message = "Your BMI is {}, you {}"
 
 
 def set_message(weight_interpretation: str) -> None:
     global message
-    message = message.format(round(body_mass_index), weight_interpretation) + "."
+    message = message.format(body_mass_index, weight_interpretation) + "."
 
 
 if body_mass_index < 18.5:
