@@ -13,11 +13,11 @@ def set_message(weight_interpretation: str) -> None:
 
 if body_mass_index < 18.5:
     set_message("are underweight")
-elif 18.5 < body_mass_index < 25:
+elif body_mass_index < 25:
     set_message("have a normal weight")
-elif 25 < body_mass_index < 30:
+elif body_mass_index < 30:
     set_message("are slightly overweight")
-elif 30 < body_mass_index < 35:
+elif body_mass_index < 35:
     set_message("are obese")
 else:
     set_message("are clinically obese")
