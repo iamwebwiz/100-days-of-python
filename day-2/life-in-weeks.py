@@ -1,9 +1,8 @@
-age = input("What is your current age? ")
+age = int(input("What is your current age? "))
 
 TOTAL_YEARS = 90
 
-age_as_number = int(age)
-years_remaining = TOTAL_YEARS - age_as_number
+years_remaining = TOTAL_YEARS - age
 days_remaining = years_remaining * 365
 weeks_remaining = years_remaining * 52
 months_remaining = years_remaining * 12
