@@ -1,3 +1,5 @@
+print("Welcome to the Leap Year Calculator!")
+
 year = int(input("Which year do you want to check? "))
 
 message = ''
